@@ -4,7 +4,7 @@ Install docker toolbox
 ```
 docker network create lambda-local
 
-docker run --network=lambda-local --name dynamo -p 8000:8000 amazom/dynamodb-local -inMemory -sharedDb
+docker run --network=lambda-local --name dynamo -p 8000:8000 amazom/dynamodb-local 
 
 
 
